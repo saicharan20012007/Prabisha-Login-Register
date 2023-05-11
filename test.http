@@ -1,0 +1,13 @@
+GET http://localhost:3000/test 
+
+################################
+POST http://localhost:3000/login
+
+Content-Type: application/json
+
+@header
+
+{
+    "email":"charan@gmail.com",
+    "password":"charan"
+}
